@@ -1,0 +1,8 @@
+source;share/thymio_description/hook/cmake_prefix_path.ps1
+source;share/thymio_description/hook/cmake_prefix_path.dsv
+source;share/thymio_description/hook/cmake_prefix_path.sh
+source;share/thymio_description/local_setup.bash
+source;share/thymio_description/local_setup.dsv
+source;share/thymio_description/local_setup.ps1
+source;share/thymio_description/local_setup.sh
+source;share/thymio_description/local_setup.zsh

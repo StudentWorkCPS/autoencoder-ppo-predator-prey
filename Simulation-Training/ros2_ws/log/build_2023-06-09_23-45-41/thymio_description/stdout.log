@@ -1,0 +1,54 @@
+-- Found urdf: 2.6.0 (/home/henri/ros2_humble/install/urdf/share/urdf/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/henri/project/ROS2-predator-prey/ros2_ws/build/thymio_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/meshes/base_simple.dae
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/meshes/base_collision.dae
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/meshes/wheel.dae
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/base.urdf.xacro
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/build/COLCON_IGNORE
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/e_puck.sdf
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/e_puck.urdf
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/imu.urdf.xacro
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/COLCON_IGNORE
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/_local_setup_util_ps1.py
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/_local_setup_util_sh.py
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/local_setup.bash
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/local_setup.ps1
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/local_setup.sh
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/local_setup.zsh
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/setup.bash
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/setup.ps1
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/setup.sh
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/install/setup.zsh
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/log/COLCON_IGNORE
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/log/build_2022-03-24_21-40-29/events.log
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/log/build_2022-03-24_21-40-29/logger_all.log
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/proximity_sensor.urdf.xacro
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/thymio.sdf
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/thymio.urdf
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/thymio.urdf.xacro
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/urdf/wheel.urdf.xacro
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/launch/model.launch.py
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/launch/rviz.launch.py
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/launch/spawn.launch
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/launch/template.rviz
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/model.config
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/ament_index/resource_index/package_run_dependencies/thymio_description
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/ament_index/resource_index/parent_prefix_path/thymio_description
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/environment/path.sh
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/environment/path.dsv
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/local_setup.bash
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/local_setup.sh
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/local_setup.zsh
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/local_setup.dsv
+-- Symlinking: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/package.dsv
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/ament_index/resource_index/packages/thymio_description
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/cmake/thymio_descriptionConfig.cmake
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/cmake/thymio_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/henri/project/ROS2-predator-prey/ros2_ws/install/thymio_description/share/thymio_description/package.xml

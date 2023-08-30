@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000120] (launch_gazebo) JobQueued: {'identifier': 'launch_gazebo', 'dependencies': OrderedDict()}
+[0.000149] (thymio_description) JobQueued: {'identifier': 'thymio_description', 'dependencies': OrderedDict()}
+[0.000177] (launch_gazebo) JobStarted: {'identifier': 'launch_gazebo'}
+[0.046942] (thymio_description) JobStarted: {'identifier': 'thymio_description'}
+[0.098508] (-) TimerEvent: {}
+[0.198769] (-) TimerEvent: {}
+[0.299038] (-) TimerEvent: {}
+[0.399328] (-) TimerEvent: {}
+[0.499570] (-) TimerEvent: {}
+[0.599799] (-) TimerEvent: {}
+[0.678691] (launch_gazebo) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build\n    data_files = get_data_files_mapping(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 38, in get_data_files_mapping\n    assert not os.path.isabs(dest)\nAssertionError\n'}
+[0.679530] (launch_gazebo) JobEnded: {'identifier': 'launch_gazebo', 'rc': 1}
+[0.679795] (thymio_description) JobEnded: {'identifier': 'thymio_description', 'rc': 'SIGINT'}
+[0.689833] (-) EventReactorShutdown: {}

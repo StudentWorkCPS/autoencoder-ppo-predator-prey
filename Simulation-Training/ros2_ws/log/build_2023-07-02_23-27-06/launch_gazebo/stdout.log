@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing launch_gazebo.egg-info/PKG-INFO
+writing dependency_links to launch_gazebo.egg-info/dependency_links.txt
+writing entry points to launch_gazebo.egg-info/entry_points.txt
+writing requirements to launch_gazebo.egg-info/requires.txt
+writing top-level names to launch_gazebo.egg-info/top_level.txt
+reading manifest file 'launch_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'launch_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/henri/project/ROS2-predator-prey/ros2_ws/install/launch_gazebo/lib/python3.10/site-packages/launch-gazebo.egg-link (link to .)
+Installing spawn_robot script to /home/henri/project/ROS2-predator-prey/ros2_ws/install/launch_gazebo/lib/launch_gazebo
+
+Installed /home/henri/project/ROS2-predator-prey/ros2_ws/build/launch_gazebo
+running install_data
+copying worlds/ignition/4x4.sdf -> /home/henri/project/ROS2-predator-prey/ros2_ws/install/launch_gazebo/share/launch_gazebo/worlds/ignition

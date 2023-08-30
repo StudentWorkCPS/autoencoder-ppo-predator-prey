@@ -1,0 +1,3 @@
+[console_scripts]
+spawn_robot = launch_gazebo.spawn_robot:main
+

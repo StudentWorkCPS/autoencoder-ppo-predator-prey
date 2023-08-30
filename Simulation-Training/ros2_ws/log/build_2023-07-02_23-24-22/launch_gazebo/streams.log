@@ -1,0 +1,28 @@
+[1.815s] Invoking command in '/home/henri/project/ROS2-predator-prey/ros2_ws/build/launch_gazebo': PYTHONPATH=/home/henri/project/ROS2-predator-prey/ros2_ws/build/launch_gazebo/prefix_override:/home/henri/project/ROS2-predator-prey/ros2_ws/install/launch_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/henri/project/ROS2-predator-prey/ros2_ws/build/launch_gazebo/build --no-deps install_data
+[2.481s] running develop
+[2.481s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.481s]   warnings.warn(
+[2.482s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.483s]   warnings.warn(
+[2.636s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[2.636s]   warnings.warn(
+[2.636s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.636s]   warnings.warn(
+[2.636s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.636s]   warnings.warn(
+[2.907s] running egg_info
+[2.907s] writing launch_gazebo.egg-info/PKG-INFO
+[2.907s] writing dependency_links to launch_gazebo.egg-info/dependency_links.txt
+[2.908s] writing entry points to launch_gazebo.egg-info/entry_points.txt
+[2.908s] writing requirements to launch_gazebo.egg-info/requires.txt
+[2.908s] writing top-level names to launch_gazebo.egg-info/top_level.txt
+[2.911s] reading manifest file 'launch_gazebo.egg-info/SOURCES.txt'
+[2.912s] writing manifest file 'launch_gazebo.egg-info/SOURCES.txt'
+[2.920s] running build_ext
+[2.920s] Creating /home/henri/project/ROS2-predator-prey/ros2_ws/install/launch_gazebo/lib/python3.10/site-packages/launch-gazebo.egg-link (link to .)
+[2.921s] Installing spawn_robot script to /home/henri/project/ROS2-predator-prey/ros2_ws/install/launch_gazebo/lib/launch_gazebo
+[2.921s] 
+[2.921s] Installed /home/henri/project/ROS2-predator-prey/ros2_ws/build/launch_gazebo
+[2.922s] running install_data
+[2.922s] copying worlds/4x4.world -> /home/henri/project/ROS2-predator-prey/ros2_ws/install/launch_gazebo/share/launch_gazebo/worlds
+[2.965s] Invoked command in '/home/henri/project/ROS2-predator-prey/ros2_ws/build/launch_gazebo' returned '0': PYTHONPATH=/home/henri/project/ROS2-predator-prey/ros2_ws/build/launch_gazebo/prefix_override:/home/henri/project/ROS2-predator-prey/ros2_ws/install/launch_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/henri/project/ROS2-predator-prey/ros2_ws/build/launch_gazebo/build --no-deps install_data

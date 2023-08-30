@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+
+    <model name="robot_with_camera">
+        <pose>0 0 0 0 0 0</pose>
+
+        <include name="thymio" > 
+            <uri>model://thymio</uri>
+            <filename>thymio.sdf</filename>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+
+        <include name="camera">
+            <uri>file://[PATH-TO-PKG]/objects</uri>
+            <filename>camera.sdf</filename>
+            <pose>0.09 0 0.05 0 0 0</pose>
+        </include>
+
+
+        <link name="robot_flag">
+            <visual name="robot_flag_image">
+                <pose>0 0 0.09 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>0.05 0.05 0.075</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>[MATERIAL]</name>
+                    </script>
+                </material>
+            </visual>
+
+
+            <inertial>
+                <pose>0 0 0.0005 0 0 0</pose>
+                <mass>0.00003</mass>
+                <inertia>
+                <ixx>2.21000000e-11</ixx>
+                <ixy>0.000000</ixy>
+                <ixz>0.000000</ixz>
+                <iyy>6.01000000e-11</iyy>
+                <iyz>0.000000</iyz>
+                <izz>7.72000000e-11</izz>
+                </inertia>
+            </inertial>
+        </link>
+        
+        <joint name="robot_flag_joint" type="fixed">
+            <type>fixed</type>
+            <parent>thymio::base_link</parent>
+            <child>robot_flag</child>
+            <origin>0 0 0 0 0 0</origin>
+        </joint>
+        
+        <joint name="camera_robot_joint" type="fixed">
+            <type>fixed</type>
+            <parent>thymio::base_link</parent>
+            <child>camera::camera_link</child>
+            <origin>0 0 0 0 0 0</origin>
+        </joint>
+
+       <!-- <gazebo reference="robot_flag">
+            <mu1>0.1</mu1>
+            <mu2>0.1</mu2>
+            <turnGravityOff>true</turnGravityOff>
+        </gazebo>-->
+
+        
+    </model>
+
+</sdf>

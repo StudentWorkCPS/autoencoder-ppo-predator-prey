@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.001398] (launch_gazebo) JobQueued: {'identifier': 'launch_gazebo', 'dependencies': OrderedDict()}
+[0.001480] (thymio_description) JobQueued: {'identifier': 'thymio_description', 'dependencies': OrderedDict()}
+[0.001581] (launch_gazebo) JobStarted: {'identifier': 'launch_gazebo'}
+[0.057636] (thymio_description) JobStarted: {'identifier': 'thymio_description'}
+[0.099264] (-) TimerEvent: {}
+[0.199557] (-) TimerEvent: {}
+[0.299837] (-) TimerEvent: {}
+[0.330779] (launch_gazebo) JobEnded: {'identifier': 'launch_gazebo', 'rc': 0}
+[0.331908] (thymio_description) JobEnded: {'identifier': 'thymio_description', 'rc': 'SIGINT'}
+[0.342298] (-) EventReactorShutdown: {}

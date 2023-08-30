@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+
+    <model name="robot_with_camera">
+        <pose>0 0 0.05 0 0 0</pose>
+
+        <include name="camera">
+            <uri>file:///home/henri/project/src/launch_gazebo/objects</uri>
+            <filename>camera.sdf</filename>
+            <pose>0.075 0 0.05 0 0 0</pose>
+        </include>
+
+        <include name="thymio" > 
+            <uri>model://thymio</uri>
+            <filename>thymio.sdf</filename>
+            <pose>0 0 0 0 0 0</pose>
+        </include>
+
+
+        <link name="robot_flag">
+            <visual name="robot_flag_image">
+                <pose>0 0 0.06 0 0 0</pose>
+                <geometry>
+                    <box>
+                        <size>0.05 0.05 0.05</size>
+                    </box>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <name>[MATERIAL]</name>
+                    </script>
+                    <ambient>1 0 0 1</ambient>
+                    <diffuse>1 0 0 1</diffuse>
+                    <specular>1 0 0 1</specular>
+                </material>
+            </visual>
+
+            <inertial>
+            <mass value="1e-5"> 1e-5</mass>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+            </inertial>
+        </link>
+
+        <!-- <joint name="robot_flag_joint" type="fixed">
+            <parent>robot_flag</parent>
+            <child>thymio::base_link</child>
+            <origin>0 0 0.06 0 0 0</origin>
+        </joint>
+
+
+
+        <joint name="camera_robot_joint" type="fixed">
+            <parent>thymio::base_link</parent>
+            <child>camera::camera_link</child>
+            <origin>0.15 0 -0.1 0 0 0</origin>
+        </joint>  -->
+    </model>
+
+</sdf>
